@@ -38,7 +38,7 @@ if platform.system() == 'Darwin':
 
 else:
     include_dirs = [np.get_include(), "/usr/local/include"]
-    extra_compile_args = ['-msse2', '-O2', '-fPIC', '-w']
+    extra_compile_args = ['-O2', '-fPIC', '-w']
     extra_link_args = ["-llapack"]
 
 
